@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    display: flex;
+}
+
+.nav-description {
+    margin: 197px 123px 365px 240px;
+
+}
+
+.nav-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-para {
+    color: rgba(39, 39, 39, 0.60);
+}
