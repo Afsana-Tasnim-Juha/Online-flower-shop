@@ -56,7 +56,7 @@
 }
 
 .btn .btn-primary {
-    margin-left: -450px;
+    margin-block-start: 0%;
 }
 
 
@@ -65,6 +65,8 @@
 
     width: 635px;
     height: 800px;
+    height: 100vh;
+
 
 
 }
@@ -77,7 +79,7 @@
 
 }
 
-.Featured-title {
+.title {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -87,7 +89,7 @@
     margin-top: 80px;
 }
 
-.Featured-para {
+.para {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -170,9 +172,12 @@
     text-align: center;
     padding-left: 200px;
 
+    height: 40%;
+
+
 }
 
-.sale-title {
+/*.sale-title {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -180,7 +185,7 @@
 
 }
 
-.sale-para {
+sale-para {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -191,7 +196,7 @@
     padding-bottom: 22px;
 
 
-}
+}*/
 
 .primary {
     color: #E55473;
@@ -200,4 +205,59 @@
 .sale-photo {
     padding: 80px;
     margin-right: 20%;
+}
+
+.login-container {
+
+    background: #FFF;
+}
+
+.login-photo {
+
+    display: flex;
+    width: 342px;
+    height: 396px;
+    margin-left: 120px;
+    margin-right: 200px;
+    column-gap: 24px;
+
+}
+
+.deal {
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    height: 400px;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+
+
+
+}
+
+.title-primary {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 80px;
+    padding-top: 100px;
+}
+
+.text-deal {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 50px;
+    row-gap: 16px;
+    margin-left: 400px;
+    padding: 5px;
+
+}
+
+/*---------------footer---------*/
+.title-flower-shop {
+    color: #E55473;
 }
